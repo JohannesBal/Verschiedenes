@@ -1,0 +1,6 @@
+# Autovervollständigung in der shell
+
+echo 'source <(kubectl completion bash)' >>/etc/bash.bashrc
+echo 'source <(docker completion bash)' >>/etc/bash.bashrc
+echo 'source <(kind completion bash)' >>/etc/bash.bashrc
+echo 'source <(helm completion bash)' >>/etc/bash.bashrc
